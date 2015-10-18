@@ -1,0 +1,17 @@
+{ "name": "keycost"
+, "version": "0.1.0"
+, "description": 'calculate "keycost" metric of a given program file'
+, "main": "keycost.js"
+, "engines": { "node": ">=4.0.0"
+, "author": "lleoem@gmail.com"
+,  "license": "MIT"
+, "dependincies": { "lodash": "*"
+                  , "printf": "*"
+                  , "nomnom": "*"
+                  }
+, "bugs": {
+    "url": "http://github.com/lleo/keycost/issues",
+    "email": "lleoem@gmail.com"
+  }
+
+}
