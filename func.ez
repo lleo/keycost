@@ -1,0 +1,3 @@
+func myfunc arg0, arg1, arg2 do
+  1 + 1
+end
