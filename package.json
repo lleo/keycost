@@ -8,9 +8,9 @@
 , "repository"  : { "type": "git"
                   , "url": "https://github.com/lleo/keycost"
                   }
-, "dependincies": { "lodash": "*"
-                  , "printf": "*"
-                  , "nomnom": "*"
+, "dependencies": { "lodash": ">=3.10.1"
+                  , "printf": ">=0.2.3"
+                  , "nomnom": ">=1.8.1"
                   }
 , "bugs": {
     "url": "http://github.com/lleo/keycost/issues",
