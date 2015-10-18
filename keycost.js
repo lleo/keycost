@@ -8,6 +8,7 @@ var fs = require('fs')
   , u = require('lodash')
   , log = console.log
   , printf = require('printf')
+  , nomnom = require('nomnom')
 
 var sh = 0.5
   , lp = 1.5       //left pinky
@@ -189,12 +190,14 @@ function chr(n) { return String.fromCharCode(n) }
 //log(module.filename)
 //log(process.argv)
 //log(process.execPath)
-var exec = process.execPath.split(path.sep).pop()
-  , args = process.argv.filter(function(e,i,a){
-             if (i == 0 && e == exec) return false
-             if (i == 1 && e == module.filename) return false
-             return true
-           })
+//var exec = process.execPath.split(path.sep).pop()
+//  , args = process.argv.filter(function(e,i,a){
+//             if (i == 0 && e == exec) return false
+//             if (i == 1 && e == module.filename) return false
+//             return true
+//           })
+var opts = nomnom.parse()
+  , args = opts._
 
 log(args)
 
