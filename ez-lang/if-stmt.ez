@@ -1,0 +1,6 @@
+var x = 4
+if x > 3 then
+  print "x > 3"
+else
+  print "x <= 3"
+end
